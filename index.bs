@@ -459,12 +459,15 @@ Making Picture-in-Picture accessible is a shared responsibility between the
 
 The <a>user agent</a> is responsible for the parts of the experience it
 controls. When a <a>user agent</a> presents an affordance to enter
-Picture-in-Picture, that affordance MUST be operable by keyboard and MUST expose
-its name, role, state, and value to platform accessibility APIs.
+Picture-in-Picture, that affordance MUST expose its name, role, state, and value
+to platform accessibility APIs and MUST be operable through assistive
+technology. Where the platform supports keyboard input, the affordance MUST be
+keyboard operable.
 
 When the <a>user agent</a> draws controls in the Picture-in-Picture window
-itself, those controls MUST be operable by keyboard and expose their name, role,
-state, and value to platform accessibility APIs. The available controls are
+itself, those controls MUST expose their name, role, state, and value to platform
+accessibility APIs and be operable through assistive technology, including by
+keyboard where the platform supports keyboard input. The available controls are
 customized using the [[MediaSession]] API. Because the play and pause control
 reflects the media's playback state, the <a>user agent</a> MUST convey the
 current play or pause state to assistive technology, for example by updating the
