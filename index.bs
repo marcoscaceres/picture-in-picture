@@ -478,7 +478,7 @@ subtitles, or an accompanying sign-language or other alternative media track,
 the <a>user agent</a> MUST continue to present it in the Picture-in-Picture
 window, unless the platform's Picture-in-Picture surface makes this impossible.
 
-When Picture-in-Picture is exited, focus MUST return to the element that
+When Picture-in-Picture is exited, focus MUST return to the
 last focused known focused element on the page.
 
 The Picture-in-Picture window itself MAY be provided by the operating system
