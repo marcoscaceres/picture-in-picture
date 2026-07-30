@@ -482,7 +482,7 @@ When Picture-in-Picture is exited, focus MUST return to the element that
 initiated Picture-in-Picture, or, if that element is no longer available, to the
 originating video element.
 
-The Picture-in-Picture window itself may be provided by the operating system
+The Picture-in-Picture window itself MAY be provided by the operating system
 rather than the <a>user agent</a>. Where the platform draws the window and its
 controls, the accessibility of that surface, including contrast and keyboard
 operation of system controls, depends on the platform.
