@@ -479,8 +479,7 @@ the <a>user agent</a> MUST continue to present it in the Picture-in-Picture
 window, unless the platform's Picture-in-Picture surface makes this impossible.
 
 When Picture-in-Picture is exited, focus MUST return to the element that
-initiated Picture-in-Picture, or, if that element is no longer available, to the
-originating video element.
+last focused known focused element on the page.
 
 The Picture-in-Picture window itself MAY be provided by the operating system
 rather than the <a>user agent</a>. Where the platform draws the window and its
